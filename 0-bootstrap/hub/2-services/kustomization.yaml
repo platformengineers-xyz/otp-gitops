@@ -2,12 +2,12 @@ resources:
  ## Base Components required for One Touch Provisioning
 
  # Red Hat Advanced Cluster Management
- - argocd/operators/openshift-acm.yaml
- - argocd/instances/openshift-acm-instance.yaml
- - argocd/instances/openshift-acm-observability-instance.yaml
- - argocd/instances/openshift-gitopscluster-instance.yaml
+ #- argocd/operators/openshift-acm.yaml
+ #- argocd/instances/openshift-acm-instance.yaml
+ #- argocd/instances/openshift-acm-observability-instance.yaml
+ #- argocd/instances/openshift-gitopscluster-instance.yaml
  # Red Hat Advanced Cluster Management - Central Infrastructure Management
- - argocd/instances/openshift-acm-cim.yaml
+ #- argocd/instances/openshift-acm-cim.yaml
  # Red Hat Advanced Cluster Management - Discovery Service
  #- argocd/instances/openshift-acm-discovery-service.yaml
  # Red Hat Advanced Cluster Management - Bare Metal Operator and Ironic
@@ -15,10 +15,10 @@ resources:
  #- argocd/operators/ironic.yaml
  
   # Red Hat Quay Registry
- - argocd/operators/quay-registry.yaml
- - argocd/instances/quay-registry-instance.yaml
- - argocd/operators/quay-container-security.yaml
- - argocd/operators/quay-bridge-operator.yaml
+ #- argocd/operators/quay-registry.yaml
+ #- argocd/instances/quay-registry-instance.yaml
+ #- argocd/operators/quay-container-security.yaml
+ #- argocd/operators/quay-bridge-operator.yaml
 
  # Local Hashicorp Vault Instance
  # - argocd/instances/hashicorp-vault.yaml
@@ -28,13 +28,13 @@ resources:
  - argocd/instances/external-secrets.yaml
 
  # Ansible Automation Platform
- - argocd/operators/ansible-automation-platform-operator.yaml
- - argocd/instances/ansible-automation-platform-controller-instance.yaml
- - argocd/instances/ansible-automation-platform-hub-instance.yaml
+ #- argocd/operators/ansible-automation-platform-operator.yaml
+ #- argocd/instances/ansible-automation-platform-controller-instance.yaml
+ #- argocd/instances/ansible-automation-platform-hub-instance.yaml
 
  # OpenShift Advanced Cluster Security (aka Stackrox)
- - argocd/operators/openshift-acs-operator.yaml
- - argocd/instances/openshift-acs-instance.yaml
+ #- argocd/operators/openshift-acs-operator.yaml
+ #- argocd/instances/openshift-acs-instance.yaml
 
  ## Optional Components. These are NOT required for OTP, but can be enabled.
 
