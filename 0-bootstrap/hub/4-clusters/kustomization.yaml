@@ -1,5 +1,5 @@
 resources:
-# - argocd/clusters/dev/hcp/hcp-dev/hcp-dev.yaml
+- argocd/clusters/dev/hcp/hcp-dev/hcp-dev.yaml
 patches:
 - target:
     group: argoproj.io
