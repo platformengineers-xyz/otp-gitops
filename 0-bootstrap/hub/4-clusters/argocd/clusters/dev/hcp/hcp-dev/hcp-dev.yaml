@@ -32,7 +32,7 @@ spec:
         clusterNamespace: clusters-hcp-dev
 
         nodepool:
-          name: hcp0-np-1
+          name: hcp-dev-np-1
           count: 2
           computeCores: 2
           computeMemory: 8Gi
