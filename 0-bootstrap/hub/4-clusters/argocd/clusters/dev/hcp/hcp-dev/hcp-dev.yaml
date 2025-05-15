@@ -29,7 +29,7 @@ spec:
         
         # Cluster Name
         cluster: hcp-dev
-        clusterNamespace: hcp-dev-cluster
+        clusterNamespace: clusters-hcp-dev
 
         nodepool:
           name: hcp0-np-1
