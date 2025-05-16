@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: clusters-hcp-dev
+  name: ocp-cluster-acme-pilot
   annotations:
     argocd.argoproj.io/sync-wave: "450"
   labels:
@@ -28,11 +28,11 @@ spec:
           managedRepo: https://github.com/one-touch-provisioning/otp-gitops.git # Repository that will be used to manage the Cluster resources
         
         # Cluster Name
-        cluster: otp-cluster-dev
-        clusterNamespace: clusters-otp-cluster-dev
+        cluster: ocp-cluster-acme-pilot
+        clusterNamespace: clusters-ocp-cluster-acme-pilot
 
         nodepool:
-          name: hcp-dev-np-1
+          name: acme-pilot-np-1
           count: 2
           computeCores: 4
           computeMemory: 16Gi
